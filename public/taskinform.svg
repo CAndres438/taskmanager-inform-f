@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="12" fill="#3B82F6"/>
+  <rect x="18" y="16" width="28" height="4" rx="2" fill="white"/>
+  <rect x="18" y="26" width="28" height="4" rx="2" fill="white"/>
+  <rect x="18" y="36" width="20" height="4" rx="2" fill="white"/>
+  <circle cx="45" cy="38" r="3" fill="white"/>
+  <text x="32" y="55" text-anchor="middle" fill="white" font-size="10" font-family="Arial, sans-serif">TaskInform</text>
+</svg>
