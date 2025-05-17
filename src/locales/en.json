@@ -1,0 +1,13 @@
+{
+    "login.error": "Login failed. credentials are incorrect.",
+    "login.success": "Login successful. Welcome back!",
+    "login.title": "Login",
+    "login.username": "Username",
+    "login.email": "Email",
+    "login.password": "Password",
+    "login.remember": "Remember me",
+    "login.submit": "Login",
+    "login.email_required": "Email is required",
+    "login.email_invalid": "Email is invalid",
+    "login.password_required": "Password is required"
+}

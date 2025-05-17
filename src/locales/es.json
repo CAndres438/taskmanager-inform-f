@@ -1,0 +1,13 @@
+{
+    "login.error": "Error de inicio de sesión. Credenciales incorrectas.",
+    "login.success": "Inicio de sesión exitoso. ¡Bienvenido de nuevo!",
+    "login.title": "Iniciar sesión",
+    "login.username": "Nombre de usuario",
+    "login.email": "Correo electrónico",
+    "login.password": "Contraseña",
+    "login.remember": "Recuérdame",
+    "login.submit": "Iniciar sesión",
+    "login.email_required": "El correo electrónico es obligatorio",
+    "login.email_invalid": "El correo electrónico no es válido",
+    "login.password_required": "La contraseña es obligatoria"
+}

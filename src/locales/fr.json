@@ -1,0 +1,13 @@
+{
+    "login.error": "Échec de la connexion. Les credentials sont incorrectes.",
+    "login.success": "Connexion réussie. Bienvenue à nouveau !",
+    "login.title": "Connexion",
+    "login.username": "Nom d'utilisateur",
+    "login.email": "Email",
+    "login.password": "Mot de passe",
+    "login.remember": "Souviens-toi de moi",
+    "login.submit": "Connexion",
+    "login.email_required": "L'email est requis",
+    "login.email_invalid": "L'email n'est pas valide",
+    "login.password_required": "Le mot de passe est requis"
+}

@@ -1,18 +1,28 @@
-import { useState } from 'react'
-import taskLogo from '/taskinform.svg'
-import './App.css'
+
+import Home from './pages/Home'
+import Login from './pages/Login'
+import { Box } from '@mui/material'
+import { Routes, Route, Navigate } from 'react-router-dom'
+import PrivateRoute from './components/PrivateRoute'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={taskLogo} className="logo" alt="Vite logo" />
-        </a>
-      </div>
-      <h1>Task Inform</h1>
+      <Box p={3}>
+        <Routes>
+          <Route path="/" element={<Navigate to="/login" />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route
+            path="/home"
+            element={
+              <PrivateRoute>
+                <Home />
+              </PrivateRoute>
+            }
+          />
+        </Routes>
+      </Box>
     
     </>
   )
