@@ -2,6 +2,8 @@ import { AppBar, Toolbar, Typography, Box, Select, MenuItem, Button, Avatar } fr
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { isAuthenticated, getUserName } from '../utils/auth';
+import NotificationBell from './NotificationBell';
+
 
 const TopBar = () => {
     const { t, i18n } = useTranslation();
@@ -21,6 +23,13 @@ const TopBar = () => {
                 <Typography variant="h6">{t('topbar.title')}</Typography>
 
                 <Box display="flex" alignItems="center" gap={2}>
+                    {isAuthenticated() && (
+                        <>
+                            <NotificationBell />
+                            ...
+                        </>
+                    )}
+
                     <Typography variant="body2">{t('topbar.language')}</Typography>
                     <Select
                         value={i18n.language}
