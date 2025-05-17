@@ -9,5 +9,16 @@
     "login.submit": "Login",
     "login.email_required": "Email is required",
     "login.email_invalid": "Email is invalid",
-    "login.password_required": "Password is required"
+    "login.password_required": "Password is required",
+    "login.register_message_link": "Don't have an account? Register now",
+    "register.title": "Register",
+    "register.name": "Name",
+    "register.email": "Email",
+    "register.login_link": "Already have an account? Login",
+    "register.name_required": "Name is required",
+    "register.email_required": "Email is required",
+    "register.email_invalid": "Email is invalid",
+    "register.password_required": "Password is required",
+    "register.success": "Registration successful. Welcome!",
+    "register.error": "Registration failed. Please try again."
 }

@@ -9,5 +9,18 @@
     "login.submit": "Iniciar sesión",
     "login.email_required": "El correo electrónico es obligatorio",
     "login.email_invalid": "El correo electrónico no es válido",
-    "login.password_required": "La contraseña es obligatoria"
+    "login.password_required": "La contraseña es obligatoria",
+    "login.register_message_link": "¿No tienes una cuenta? Regístrate ahora",
+    "register.title": "Registro",
+    "register.name": "Nombre",
+    "register.email": "Correo electrónico",
+    "register.password": "Contraseña",
+    "register.submit": "Registrarse",
+    "register.login_link": "¿Ya tienes una cuenta? Inicia sesión",
+    "register.name_required": "El nombre es obligatorio",
+    "register.email_required": "El correo electrónico es obligatorio",
+    "register.email_invalid": "El correo electrónico no es válido",
+    "register.password_required": "La contraseña es obligatoria",
+    "register.success": "Registro exitoso. ¡Bienvenido!",
+    "register.error": "Error de registro. Por favor, inténtalo de nuevo."
 }
