@@ -5,10 +5,12 @@ import Register from './pages/Register'
 import { Box } from '@mui/material'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import PrivateRoute from './components/PrivateRoute'
+import Topbar from './components/TopBar'
 
 function App() {
   return (
     <>
+    <Topbar />
       <Box p={3}>
         <Routes>
           <Route path="/" element={<Navigate to="/login" />} />

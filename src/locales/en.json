@@ -14,11 +14,20 @@
     "register.title": "Register",
     "register.name": "Name",
     "register.email": "Email",
+    "register.password": "Password",
+    "register.submit": "Register",
     "register.login_link": "Already have an account? Login",
     "register.name_required": "Name is required",
     "register.email_required": "Email is required",
     "register.email_invalid": "Email is invalid",
     "register.password_required": "Password is required",
     "register.success": "Registration successful. Welcome!",
-    "register.error": "Registration failed. Please try again."
+    "register.error": "Registration failed. Please try again.",
+    "topbar.title": "TaskManager",
+    "topbar.language": "Language",
+    "topbar.welcome": "Welcome",
+    "topbar.logout": "Logout",
+    "topbar.lang_es": "Spanish",
+    "topbar.lang_en": "English",
+    "topbar.lang_fr": "French"
 }

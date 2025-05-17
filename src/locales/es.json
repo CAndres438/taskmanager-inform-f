@@ -22,5 +22,12 @@
     "register.email_invalid": "El correo electrónico no es válido",
     "register.password_required": "La contraseña es obligatoria",
     "register.success": "Registro exitoso. ¡Bienvenido!",
-    "register.error": "Error de registro. Por favor, inténtalo de nuevo."
+    "register.error": "Error de registro. Por favor, inténtalo de nuevo.",
+    "topbar.title": "TaskManager",
+    "topbar.language": "Idioma",
+    "topbar.welcome": "Bienvenido",
+    "topbar.logout": "Cerrar sesión",
+    "topbar.lang_es": "Español",
+    "topbar.lang_en": "Inglés",
+    "topbar.lang_fr": "Francés"
 }
