@@ -6,6 +6,8 @@ const axiosInstance = axios.create({
 
 // Interceptor
 axiosInstance.interceptors.request.use((config) => {
+    console.log("🛠️ API_URL:", import.meta.env.VITE_API_URL);
+
     const user = JSON.parse(localStorage.getItem('user'));
     if (user?.token) {
         config.headers.Authorization = `Bearer ${user.token}`;

@@ -6,8 +6,18 @@ import { Box } from '@mui/material'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import PrivateRoute from './components/PrivateRoute'
 import Topbar from './components/TopBar'
+import { useEffect } from 'react'
+
+
+
+
+
+
 
 function App() {
+  useEffect(() => {
+  console.log("🌐 API endpoint:", import.meta.env.VITE_API_URL);
+}, []);
   return (
     <>
     <Topbar />
